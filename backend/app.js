@@ -15,7 +15,7 @@ const _dirname = path.resolve();
 
 app.use(
   cors({
-    origin: "https://chat-app-with-call-f3pv.vercel.app/",
+    origin: "/api",
     credentials: true,
   })
 );
