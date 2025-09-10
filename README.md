@@ -22,34 +22,29 @@ This repository contains a full-stack chat application supporting real-time mess
 ## Features
 
 - **Real-time Chat:** Instant messaging between users.
-- **Voice/Video Calls:** Peer-to-peer calls via WebRTC.
+- **Voice/Video Calls:** Peer-to-peer calls via GetStream.
 - **User Authentication:** Secure registration and login.
 - **Responsive UI:** Works on desktop and mobile devices.
 - **Message History:** Persistent storage of chat history.
 - **Online Status:** Shows which users are online.
-- **Notifications:** Alerts for new messages and calls.
-- **Group Chats:** Create and join group conversations (if implemented).
-- **Emojis & Attachments:** Send emojis and files (if implemented).
+- **Notifications:** Alerts for new Friend.
 
 ## Architecture
 
-- **Frontend:** React.js (or your chosen framework)
+- **Frontend:** React.js 
 - **Backend:** Node.js with Express
-- **Real-time Communication:** Socket.IO
-- **Media Streaming:** WebRTC
-- **Database:** MongoDB (or other database)
+- **Real-time Communication:** GetStream
+- **Database:** MongoDB 
 - **Authentication:** JWT (JSON Web Tokens)
-- **Deployment:** Docker, CI/CD ready
 
 ## Tech Stack
 
-- **Languages:** JavaScript, TypeScript (if used)
-- **Frontend:** React.js, Redux, Material-UI (or other)
+- **Languages:** JavaScript, TypeScript 
+- **Frontend:** React.js
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
-- **Real-time:** Socket.IO, WebRTC
-- **DevOps:** Docker, GitHub Actions
-- **Testing:** Jest, React Testing Library
+- **Real-time:** GetStream
+- **DevOps:** GitHub Actions
 
 ## Installation
 
@@ -97,11 +92,7 @@ This repository contains a full-stack chat application supporting real-time mess
 - Register a new account or log in.
 - Start a chat with any online user.
 - Initiate a voice or video call.
-- View message history and notifications.
 
-## Screenshots
-
-*Add screenshots of the application here.*
 
 ## Contributing
 
